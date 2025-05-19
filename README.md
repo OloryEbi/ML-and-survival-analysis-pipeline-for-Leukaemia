@@ -1,6 +1,8 @@
 # Machine learning for early detection of leukaemia from RNA-seq data using predictive and survival modelling.
-This project applies machine learning techniques to RNA-seq gene expression data for early detection and prognosis of Acute Myeloid Leukaemia (AML). It includes differential gene expression analysis, classification of FLT3-ITD mutation status using multiple ML models, SHAP-based interpretability, functional enrichment, and survival modelling using TCGA-LAML 
-![WhatsApp Image 2025-05-19 at 21 41 32_910ded6e](https://github.com/user-attachments/assets/061d6fcf-9caf-48de-bab1-ea61f4c8f6bf)
+This project applies machine learning techniques to RNA-seq gene expression data for early detection and prognosis of Acute Myeloid Leukaemia (AML). It includes differential gene expression analysis, classification of FLT3-ITD mutation status using multiple ML models, SHAP-based interpretability, functional enrichment, and survival modelling using TCGA-LAML  
+
+![WhatsApp Image 2025-05-19 at 21 41 32_f7193213](https://github.com/user-attachments/assets/e4707c30-2a63-4bb6-a1c9-3ea90f924419)
+
 > This image represents the comparison of healthy bone marrow and bone marrow affected by acute myeloid leukaemia (AML), illustrating abnormal proliferation of haematopoietic cells.
 # Project Overview
 Acute Myeloid Leukaemia (AML) is a genetically heterogeneous and aggressive blood cancer characterised by uncontrolled proliferation of myeloid precursor cells and poor patient outcomes. Despite advances in genomics, timely diagnosis and effective risk stratification remain major clinical challenges. Current diagnostic tools often overlook early molecular signals, particularly those associated with high-risk mutations such as FLT3-ITD.
