@@ -54,7 +54,12 @@ This project uses publicly available gene expression and clinical data from **GE
 - **Run lasso cox model**: Rscript scripts/Run lasso cox model.R
 
 # Acknowledgements
-This work was completed as part of the MSc Bioinformatics program at Teesside University. Special thanks to academic supervisors, Family and friends, GEO/TCGA data providers, open-source contributors.
+This work was completed as part of the MSc Bioinformatics programme at Teesside University.
+Special thanks to:
+- Academic supervisors and programme leaders
+- GEO and TCGA for open-access datasets
+- The open-source bioinformatics community
+- Family and friends for support throughout the project
 
 ## References
 - Alshamleh, I., Kurrle, N., Makowka, P., Bhayadia, R., Kumar, R., Süsser, S., Seibert, M., Ludig, D., Wolf, S., Koschade, S.E. and Stoschek, K. (2023). PDP1 is a key metabolic gatekeeper and modulator of drug resistance in FLT3-ITD-positive acute myeloid leukemia. Leukemia, 37(12), pp.2367-2382.
