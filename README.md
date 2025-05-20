@@ -25,12 +25,7 @@ This integrative ML and transcriptomic approach successfully uncovered novel and
 - Survival analysis using TCGA-LAML:
   - Kaplan–Meier plots
   - Cox regression (univariate & multivariate)
-  - LASSO-derived multigene prognostic signature
-
-## Tools and Languages
-- **R**: limma, survival, glmnet, ggplot2, VennDiagram  
-- **Python**: scikit-learn, shap, pandas, matplotlib  
-- **DAVID**: Functional enrichment  
+  - LASSO-derived multigene prognostic signature 
 
 ## Results
 Key results include:
@@ -41,6 +36,25 @@ Key results include:
 - Venn diagrams for cross-model gene overlap
 - Functional enrichment dot plots
 - Kaplan–Meier and forest plots for prognostic validation
+
+## Tools and Languages
+- **R**: limma, survival, glmnet, ggplot2, VennDiagram  
+- **Python**: scikit-learn, shap, pandas, matplotlib  
+- **DAVID**: Functional enrichment 
+
+## Codebase Language Statistics
+
+This summary was generated using [cloc](https://github.com/AlDanial/cloc) (Count Lines of Code) to provide a more accurate view of the project code composition than GitHub's language statistics.
+
+| Language          | Files | Blank Lines | Comment Lines | Code Lines |
+|-------------------|-------|-------------|---------------|------------|
+| R                 | 7     | 534         | 390           | 1,788      |
+| Jupyter Notebook  | 1     | 0           | 633           | 140        |
+| Markdown          | 1     | 10          | 0             | 89         |
+
+**Total:** 9 files, 544 blank lines, 1,023 comment lines, 2,017 lines of code.
+
+> _Note: Jupyter notebooks include metadata that can inflate line counts._
 
 ## Data Access
 
