@@ -1,6 +1,9 @@
 # Machine learning for early detection of leukaemia from RNA-seq data using predictive and survival modelling.
-This project applies machine learning techniques to RNA-seq gene expression data for early detection and prognosis of Acute Myeloid Leukaemia (AML). It includes differential gene expression analysis, classification of FLT3-ITD mutation status using multiple ML models, SHAP-based interpretability, functional enrichment, and survival modelling using TCGA-LAML data. ![image](https://github.com/user-attachments/assets/fc7e824f-d0ce-4b88-aa60-08a7342f8fca)
+This project applies machine learning techniques to RNA-seq gene expression data for early detection and prognosis of Acute Myeloid Leukaemia (AML). It includes differential gene expression analysis, classification of FLT3-ITD mutation status using multiple ML models, SHAP-based interpretability, functional enrichment, and survival modelling using TCGA-LAML  
 
+![WhatsApp Image 2025-05-19 at 21 41 32_f7193213](https://github.com/user-attachments/assets/e4707c30-2a63-4bb6-a1c9-3ea90f924419)
+
+> This image represents the comparison of healthy bone marrow and bone marrow affected by acute myeloid leukaemia (AML), illustrating abnormal proliferation of haematopoietic cells.
 # Project Overview
 Acute Myeloid Leukaemia (AML) is a genetically heterogeneous and aggressive blood cancer characterised by uncontrolled proliferation of myeloid precursor cells and poor patient outcomes. Despite advances in genomics, timely diagnosis and effective risk stratification remain major clinical challenges. Current diagnostic tools often overlook early molecular signals, particularly those associated with high-risk mutations such as FLT3-ITD.
 This study aimed to address this gap by developing machine learning (ML) models for early AML classification and prognostic biomarker discovery using RNA sequencing data. Five algorithms, Random Forest (RF), XGBoost (XGB), Support Vector Machine (SVM), Least Absolute Shrinkage and Selection Operator (LASSO) and Neural Network (NN), were trained and evaluated, producing a consensus set of top-ranked genes. SHAP (SHapley Additive exPlanations) analysis revealed PDE4B, SOCS2, SPINK2, MIR155 and HOX Genes as key predictors contributing to AML classification.
@@ -54,7 +57,12 @@ This project uses publicly available gene expression and clinical data from **GE
 - **Run lasso cox model**: Rscript scripts/Run lasso cox model.R
 
 # Acknowledgements
-This work was completed as part of the MSc Bioinformatics program at Teesside University. Special thanks to academic supervisors, Family and friends, GEO/TCGA data providers, open-source contributors.
+This work was completed as part of the MSc Bioinformatics programme at Teesside University.
+Special thanks to:
+- Academic supervisors and programme leaders
+- GEO and TCGA for open-access datasets
+- The open-source bioinformatics community
+- Family and friends for support throughout the project
 
 ## References
 - Alshamleh, I., Kurrle, N., Makowka, P., Bhayadia, R., Kumar, R., Süsser, S., Seibert, M., Ludig, D., Wolf, S., Koschade, S.E. and Stoschek, K. (2023). PDP1 is a key metabolic gatekeeper and modulator of drug resistance in FLT3-ITD-positive acute myeloid leukemia. Leukemia, 37(12), pp.2367-2382.
